@@ -1,0 +1,51 @@
+---
+layout: default
+---
+
+<main class="page-content" aria-label="Content">
+    <div class="wrapper wrapper-flex">
+        <div class="flex-half home">
+          {%- if page.title -%}
+            <h1 class="page-heading">{{ page.title }}</h1>
+          {%- endif -%}
+
+            <!--<h1>CIntia</h1>-->
+            <h3>
+              O Cintia é o grupo de mulheres do CIn-UFPE, criado com o objetivo de ser uma rede de apoio entre todas as mulheres que fazem parte do Centro de Informática. O Cintia também tem o objetivo de incentivar a participação feminina nas áreas da ciência, tecnologia e computação, promovendo ações para conquistar mais mulheres a ingressarem nestas áreas e disponibilizando o acompanhamento e amadrinhamento para incentivar as mulheres que já estão inseridas nesse universo.
+            </h3>
+            <button class="button secondary short full-on-mobile"><a href="https://forms.gle/Y5US4kDKm3JFNgNFA">Junte-se ao CIntia!</a></button>
+
+        </div>
+
+        <div class="flex-half home-image image-shadow">
+          <img src="./assets/foto.jpeg">
+        </div>
+    </div>
+</main>
+
+<section class="wrapper wrapper-flex">
+  <div class="flex-half image-shadow">
+    <img src="./assets/eventos/evento_1.png" alt="">
+    </div>
+    <div class="flex-half home">
+      <h2>Eventos internos</h2>
+      <h3>
+        Para um CIn mais excelente!
+      </h3>
+    </div>
+</section>
+
+<section class="wrapper wrapper-flex">
+  <div class="flex-half home">
+    <h2>Eventos externos</h2>
+    <h3>
+      Para educação e mais mulheres na computação!
+    </h3>
+  </div>
+
+    <div class="flex-half image-shadow">
+      <img src="./assets/eventos/evento_2.png" alt="">
+    </div>
+</section>
+
+{%- include people.html -%}
